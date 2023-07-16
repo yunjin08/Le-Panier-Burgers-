@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> Advanced Functions </title>
+    </head>
+    <body>
+
+      <button class="clickhere"> Click </button>
+      <script>
+        /*
+        function greeting(){
+            console.log('hello');
+        }
+        greeting();
+
+        //passing a function to another function
+        function run (param){
+            param();
+        }
+
+        run(function(){
+            console.log('hello4');
+        })
+        //
+        */
+
+
+        /*      Advance Functions as Variable
+                 -setTimeout();        (to count first before doing something)
+                 -setInterval();       (to count first before doing something, but in given interval, can be infinite)
+                 -forEach();           (to loop through an array without using for)
+                 -addEventListener();  (to add an event in the js, without using onclick attribute in html)
+                 -filter();            (same syntax and form with forEach, but it can return and only returns a true value to create another array)
+                 -map();               (same syntac and form with forEach, but it can manipulate variables inside and return it, creating new array)
+
+
+                 Code Implementations:
+                 1. setTimeout(function(){
+                 console.log('timeout');
+                 }, 3000);
+
+                 2. setInterval(function(){
+                 console.log('interval');
+                 }, 3000);
+
+                 3. [
+                 'make dinner',
+                 'wash dishes',
+                 'watch youtube'
+                 ].forEach(function(value, index){
+                 if(value === 'wash dishes'){
+                  return;                         return in this function means continue
+                 }
+                 console.log(index);
+                 console.log(value);
+                 });
+
+                 4. const eventElement = document.querySelector('.clickhere');
+                 eventElement.addEventListener('click', () => {
+                 console.log('Just Clicked');
+                 })
+
+                 5.console.log([1, -3, 5].filter((value, index) => {
+                 return value >= 0;
+                 }));
+
+        */
+
+        /*      Shortcuts for making a function
+                Normal Function:
+                function normalFunction(){
+                  return 2+3;
+                };
+
+                Arrow Function:
+                function arrowFunction = () => 2+3;
+
+        */
+
+        /*      Shortcuts for Button or Events
+                Normal Function:
+                function normalFunction(){
+                  return 2+3;
+                };
+
+                Arrow Function:
+                function arrowFunction = () => 2+3;
+
+        */
+
+         
+
+         console.log([1,1,3].map((value, index) => {
+          return value * 2 ;
+
+         }));
+
+         console.log([1,1,3].map((value) => value * 2));
+
+
+      </script>
+    </body>
+</html> 

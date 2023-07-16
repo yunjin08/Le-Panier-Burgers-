@@ -1,0 +1,52 @@
+p{
+    font-family: Arial;
+    color: white;
+}
+
+.textHead{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.wholeBody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body{
+    background-color: rgb(25, 25, 25);
+}
+
+img{
+    height: 50px;
+    display: inline;
+    background-color:transparent;
+    border-radius: 60px;
+}
+
+.styleReset{
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttonStyle {
+    background-color: rgba(0,0,0,0);
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.defineWin{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.js-score{
+    margin-top: 60px;
+}
+

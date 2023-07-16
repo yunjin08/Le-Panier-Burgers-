@@ -1,0 +1,56 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.js-name-list1, 
+.genButtons{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.js-name-list1 {
+    margin-top: 10px;
+}
+
+.class1, .class2{
+    margin-bottom: 50px;
+}
+
+.todoList{
+    margin-bottom: 15px;
+}
+
+.js-date-input{
+    font-size: 15px;
+    padding: 7.5px;
+}
+
+
+.buttons{
+    background-color: rgb(0, 128, 0);
+    color: white;
+    font-size: 15px;
+    padding: 9px 30px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 128, 0);
+}
+
+.deleteButton{
+    background-color: rgb(139, 0, 0);
+    color: white;
+    font-size: 15px;
+    padding: 9px 21.5px;
+    cursor: pointer;
+    border: 1px solid rgb(139, 0, 0); 
+}
+
+.js-list-input1{
+    font-size: 15px;
+    height: 22px;
+    padding: 6px;
+}

@@ -1,0 +1,58 @@
+a,p{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.wholeBody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.js-buttonSubscribe,
+.is-unsubscribed {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.is-subscribed{
+    background-color: rgb(240,240,240);
+    color: black;
+}
+
+
+.details{
+    margin-top: 50px;
+}
+
+.costOrder{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.buttons{
+    display: block;
+    margin-bottom: 55px;
+}
+
+.buttonCalc{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
