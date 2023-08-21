@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Player(name, marker) {
+        this.name = name
+        this.marker = marker
+        }
+        const player1 = new Player('steve', 'X');
+        const player2 = new Player('mark', 'Y');
+
+        console.log(player1.marker);
+        console.log(player2.marker);
+
+
+        function Book (title, author, pages, status){
+            this.title = title;
+            this.author = author;
+            this.pages = pages;
+            this.status = status;
+        }
+        
+        Book.prototype.info = function(){
+                return this.title + ' by ' + this.author + ", " + this.pages + ", " + this.status;
+            }
+
+        let theHobbit = new Book ('The Hobbit', 'J.R.R. Tolkien', '295 pages', 'not read yet');
+        console.log(theHobbit);
+
+        let theStew = new Book ('The Stew', 'J.R.D Stewart', '450 pages', 'read already');
+        console.log(theStew);
+        console.log(theStew.info());
+
+
+    </script>
+</body>
+</html>

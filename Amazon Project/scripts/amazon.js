@@ -1,4 +1,5 @@
 let productsHTML = '';
+const cart = [];
 
 products.forEach((product) => {
     productsHTML += `
@@ -91,5 +92,10 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     console.log(cart);
   });
 });
+
+const storedCart = localStorage.getItem('cart');
+const carts = JSON.parse(storedCart);
+
+export { cart };
 
 
